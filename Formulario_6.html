@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario 6</title>
 </head>
+
 <body>
-    
+    <h1>
+        Formulario 6
+    </h1>
+    <form method="post" id="alumForm" action="">
+        <label for="cumpleaños">Cumpleaños: </label>
+        <input type="date" name="search_date" id="search_date" onchange="valida(this.value)" required>
+        <br><br>
+    </form>
+    <br>
+    <p id="resultado"></p>
+    <script src="js/f6.js"></script>
+    <a href="index.html">
+        <h1>Regresar</h1>
+    </a>
 </body>
+
 </html>
