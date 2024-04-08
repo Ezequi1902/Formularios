@@ -5,8 +5,8 @@ body {
     background-color: #f4f4f4;
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #6565cb;
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
@@ -21,10 +21,11 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-.evidencia {
-    margin-bottom: 20px;
+a{
+    text-decoration: none;
+    color:black;
 }
-.evidencia img {
-    max-width: 100%;
-    border-radius: 5px;
-}
+a:hover {
+    color: #1751ff;
+    cursor: pointer;
+  }

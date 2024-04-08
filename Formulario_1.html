@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario 1</title>
+    <link rel="stylesheet" href="css/forms.css">
 </head>
 
 <body>
@@ -14,11 +15,14 @@
     <form method="post" id="calcularForm" action="" onsubmit="return calcularGananciaMensual(this)">
         <form id="calcularForm">
             <label for="Dinero">Capital Inicial:</label>
-            <input type="number" id="Dinero" name="Dinero" required>
+            <input type="number" id="Dinero" name="Dinero" min="0" required>
             <br><br>
             <button type="submit">Calcular</button>
         </form>
-        <p id="resultado" style="display: none;"></p>
+        <div id="resultado" style="display: none;">
+            <p id="gananciaMensual"></p>
+            <p id="capitalTotal"></p>
+        </div>
     </form>
     <script src="js/f1.js"></script>
     <a href="index.html">
